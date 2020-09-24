@@ -1,0 +1,97 @@
+body{
+    font-family: "Lucida Console", Monaco, monospace;
+    box-sizing: border-box;
+}
+a { 
+    color: black;
+}
+input[type=text], input[type=file], textarea{
+    background-color: #fed7e2;
+    border: none;
+    width:300px;
+    padding:10px;
+    border-radius:5px;
+    resize: none;
+}
+input:focus, textarea:focus{
+    outline:none;
+}
+input[type=checkbox]{
+    height:18px;
+    width:18px;
+    padding:10px;
+    border-radius:5px;
+}
+img{
+    width:200px;
+    height:200px;
+    object-fit: contain;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.fileplaceholder{
+    background-color: #fed7e2;
+    border: none;
+    width:200px;
+    padding:10px;
+    border-radius:5px;
+}
+.inputmargin{
+    margin-bottom: 10px;
+}
+.labelmargin{
+    margin-top:3px;
+    margin-left:5px;
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+.button{
+    font-family : inherit;
+    font-weight: 900;
+    letter-spacing: 2pt;
+    display:inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: xx-large;
+    text-decoration: none;
+}
+.big{
+    font-family : inherit;
+    font-weight: 900;
+    letter-spacing: 2pt;
+    display:inline-block;
+    font-size: xx-large;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.smallbutton{
+    font-family : inherit;
+    font-weight: 900;
+    letter-spacing: 2pt;
+    display:inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: small;
+    text-decoration: none;
+}
+.small{
+    font-size: small;
+    font-weight: 100;
+}
+.text-center{text-align:center}
+.hidden{display: none}
+.vertical{ 
+    justify-content: center;
+    display: flex;
+    align-items:center;
+    margin-left:4px;
+}
+.subcolor{color:#e75480}
+.maincolor{color:#56002f}

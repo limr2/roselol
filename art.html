@@ -1,0 +1,75 @@
+<head>
+    <title>commission</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="icon" href="./images/icon.png" type="image/icon type">
+    <script async src="./scripts/main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+<div class="container text-center">
+    <div>
+        <a href="index.html" style="margin-bottom:10px" class="smallbutton subcolor">
+            ◄◄◄ 
+        </a>
+    </div>
+    <div class="big maincolor">3/4 body</div>
+    <div class="small maincolor">60 USD per character</div>
+    <img src="./images/sample 1.png" alt="sample 1">
+    <img src="./images/sample 2.jpg" alt="sample 2">
+    <form enctype="multipart/form-data" id="commform" method="post">
+        <div class="inputmargin">
+            <label>
+                <input type="text" name="name" id="name"
+                    placeholder="name" maxlen="20" required="">
+            </label>
+        </div>
+        <div class="inputmargin">
+            <label>
+                <input type="text" name="twitter" id="twitter"
+                    placeholder="twitter @" maxlen="20" required="">
+            </label>
+        </div>
+        <div class="inputmargin">
+            <label>
+                <input type="text" name="email" id="email"
+                    placeholder="email for finished file (optional)" maxlen="50" required="">
+            </label>
+        </div>
+        <div class="inputmargin">
+            <label>
+                <input type="file" accept="image/jpeg, image/jpg, image/gif, image/png"
+                name="ref-1" id="ref1">
+            </label>
+        </div>
+        <div class="inputmargin">
+            <label>
+                <input type="file" accept="image/jpeg, image/jpg, image/gif, image/png"
+                name="ref-2" id="ref2">
+            </label>
+        </div>
+        <div class="inputmargin">
+            <label>
+                <input type="file" accept="image/jpeg, image/jpg, image/gif, image/png"
+                name="ref-3" id="ref3">
+            </label>
+        </div>
+        <div class="inputmargin">
+            <label>
+                <input type="file" accept="image/jpeg, image/jpg, image/gif, image/png"
+                name="ref-4" id="ref4">
+            </label>
+        </div>
+        <div class="inputmargin">
+            <label>
+                <textarea type="text" name="moreinfo" id="moreinfo" rows="5"
+                    placeholder="customization requests (optional)" maxlen="256"></textarea>
+            </label>
+        </div>
+        <div class="inputmargin vertical">
+            <input type="checkbox" name="terms-and-conditions" id="terms-and-conditions"
+                value="checked" required="">
+            <label class="small text-center labelmargin maincolor" for="terms-and-conditions">
+                i accept all terms and conditions</label>
+        </div>
+        <button type="submit">send</button>
+    </form>
+</div>
