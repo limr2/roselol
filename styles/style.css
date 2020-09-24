@@ -68,7 +68,14 @@ img{
     display:inline-block;
     font-size: xx-large;
     text-decoration: none;
-    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.medium{
+    font-family : inherit;
+    font-weight: 700;
+    display:inline-block;
+    font-size: large;
+    text-decoration: none;
     margin-top: 10px;
 }
 .smallbutton{
@@ -81,17 +88,32 @@ img{
     font-size: small;
     text-decoration: none;
 }
+.sitelink{
+    font-family : inherit;
+    font-weight: 100;
+    display:inline-block;
+    font-size: small;
+    margin-top: 10px;
+    text-decoration: none;
+}
 .small{
     font-size: small;
     font-weight: 100;
 }
-.text-center{text-align:center}
-.hidden{display: none}
+.smaller{
+    font-size: x-small;
+    font-weight: 100;
+}
 .vertical{ 
     justify-content: center;
     display: flex;
     align-items:center;
     margin-left:4px;
 }
+.bigskip{margin-top: 55px;}
+.smallskip{margin-top: 10px;}
+.miniskip{margin-top: 2px;}
+.text-center{text-align:center}
+.hidden{display: none}
 .subcolor{color:#e75480}
 .maincolor{color:#56002f}
